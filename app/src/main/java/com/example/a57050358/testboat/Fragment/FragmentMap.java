@@ -59,7 +59,6 @@ import static android.content.Context.LOCATION_SERVICE;
 public class FragmentMap extends Fragment implements View.OnClickListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     Button Btn1, Btn2, Btn3, Btn4, BtnF;
-    private int TEST;
 
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
     private boolean mPermissionDenied = false;
